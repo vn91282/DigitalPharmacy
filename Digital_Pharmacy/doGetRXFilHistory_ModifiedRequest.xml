@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webservices.middleware.centraldb.walmart.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:doGetRxFillHistory>
+         <getRxFillHistRequest>
+        <centralPatientId>2930849</centralPatientId>
+       <endDate>10042018</endDate>                     
+   <onlineCustomerId>1610122017</onlineCustomerId>      
+            <requester>9928</requester>
+        <startDate>12312014</startDate>                
+         </getRxFillHistRequest>
+      </web:doGetRxFillHistory>
+   </soapenv:Body>
+</soapenv:Envelope>

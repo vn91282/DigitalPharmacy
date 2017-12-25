@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Digital_Pharmacy</groupId>
+  <artifactId>Digital_Pharmacy</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+		  <dependency>
+		  <groupId>org.apache.poi</groupId>
+		  <artifactId>poi-ooxml</artifactId>
+		  <version>3.9</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ibm.db2</groupId>
+			<artifactId>db2jcc-javax</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>ibm.db2</groupId>
+			<artifactId>db2jcc</artifactId>
+			<version>1.6.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ibm.db2</groupId>
+			<artifactId>db2java</artifactId>
+			<version>1.0</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>ibm.db2</groupId>
+			<artifactId>db2jcc_javax</artifactId>
+			<version>1.6.0</version>
+		</dependency>
+		<dependency>
+			<groupId>ibm.db2</groupId>
+			<artifactId>db2jcc_license_cisuz</artifactId>
+			<version>1.6.0</version>
+		</dependency>
+		<dependency>
+			<groupId>ibm.db2</groupId>
+			<artifactId>db2jcc_license_cu</artifactId>
+			<version>1.6.0</version>
+		</dependency>
+  </dependencies>
+</project>

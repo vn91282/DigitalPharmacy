@@ -1,0 +1,20 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webservices.middleware.centraldb.walmart.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:doGetFillDetails>
+         <!--Optional:-->
+         <fillInfoRequest>
+            <!--Optional:-->
+            <centralPatientId>2930849</centralPatientId>
+            <!--Optional:-->
+            <fillId>1114010</fillId>
+            <!--Optional:-->
+            <onlineCustomerId>1610122017</onlineCustomerId>
+            <!--Optional:-->
+            <requester>9928</requester>
+            <!--Optional:-->
+            <storeNumber>5561</storeNumber>
+         </fillInfoRequest>
+      </web:doGetFillDetails>
+   </soapenv:Body>
+</soapenv:Envelope>

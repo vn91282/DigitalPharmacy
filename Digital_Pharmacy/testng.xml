@@ -1,0 +1,11 @@
+<suite name = "DP_Webservice_Check">
+<test name="getFillDetails_webservice" preserve-order="true">
+
+	<classes>
+		<class name ="com.DP.sit.getFillDetails">
+	</class>
+	
+	</classes>
+</test>
+
+</suite>
